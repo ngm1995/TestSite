@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>My Page Title</title>
+  <meta name="description" content="My Page Description">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="all.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .nav-menu {
+            font-size:25px;
+            min-width: 180px;
+        }
+        .nav-links {
+            margin:25px 0
+        }
+        .nav-title {
+            border-bottom:solid
+        }
+.item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.item5 { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'menu main main main main main'
+    'menu footer footer footer footer footer';
+  grid-gap: 5px;
+}
+
+.grid-container > div {
+  background-color:#34675C;
+}
+
+
+    </style>
+</head>
+<body>
+  <div class="grid-container">
+  <div class="item1">
+      <header>My Website
+                <div class="dropdown">
+                    <button class="dropbtn"><i class="fas fa-bars"></i>Menu</button>
+  <div class="dropdown-content">
+    <a href="index.html"><i class="fas fa-home"></i>Home</a>
+    <a href="about-us.html"><i class="fas fa-book-open"></i>About Us</a>
+    <a href="gallery.html"><i class="fas fa-images"></i>Gallery</a>
+  </div>
+</div></header>
+      </div>
+  <div class="item2">        
+      <div class="nav-menu">
+          <img class="welcome-photo" src="welcome1.png" alt="a silhouette of a man with his arms outstretched">
+          <h3>Test</h3>
+          <p class="nav-menu-paragraph">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In hendrerit gravida rutrum quisque non tellus orci. Est sit amet facilisis magna."</p>
+          <img class="confident-photo" src="confidentwalk.png" alt="a silhouette of a man walking confidently">
+        </div>
+      </div>
+  <div class="item3">        
+      <div class="main-page">
+        <h1>Home</h1>
+        <h2>Header Two</h2>
+        <p>Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text. </p>
+        <h2>Header Two</h2>
+        <p>Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text. </p>
+        <h2>Header Two</h2>
+        <p>Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text. </p>
+        <h2>Header Two</h2>
+        <p>Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text.Test Text. </p>
+        </div>
+      </div>  
+  <div class="item5">    <footer>
+        
+        <div class="links">   
+            <div class="linkcolumn">
+                <a class="ig-icon" href="http://instagram.com"><i class="fab fa-instagram-square"></i></a>
+            </div>
+            
+            <div class="linkcolumn">
+            <a class="fb-icon" href="http://facebook.com"><i class="fab fa-facebook"></i></a>
+            </div>
+            
+            <div class="linkcolumn">
+            <a class="yt-icon" href="http://youtube.com"><i class="fab fa-youtube"></i></a>
+            </div>
+            
+            <div class="linkcolumn">
+            <a class="tt-icon" href="http://tiktok.com"><i class="fab fa-tiktok"></i></a>
+            </div>
+            
+            <div class="linkcolumn">
+            <a class="sc-icon" href="http://snapchat.com"><i class="fab fa-snapchat"></i></a>
+            </div>
+            
+        </div>
+    </footer></div>
+</div>
+    <main>
+    </main>
+</body>
+</html>
