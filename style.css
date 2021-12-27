@@ -1,0 +1,194 @@
+
+/*BODY*/
+body {
+    margin:0;
+    background-color:black;
+}
+
+/*HEADER*/
+header {
+    background-color:#B7B8B6;
+    padding:20px;
+    text-align:center;
+    font-size:45px;
+    border-bottom:solid;
+    margin-bottom:0px;
+}
+
+/*FOOTER*/
+footer {
+    background-color:#B7B8B6;
+    padding:20px;
+    font-size:25px;
+    border-top:solid;
+    text-align:center;
+}
+        
+.main-page {
+    background-color:#73bd87;
+    margin:0 auto;
+    margin-bottom:30px;
+    margin-top:30px;
+    padding:0 50px;
+    border:solid 3px black;
+    width:900px;
+}
+
+.nav-menu {
+    background-color:#4CB5f5;
+    height:100%;
+    padding-top:10px
+}
+
+.welcome-photo {
+    margin-left:10px;
+    margin-top:25px;
+}
+.confident-photo {
+    margin-left:50px;
+    margin-top: 50px;
+}
+h3 {
+    text-align:center;
+    font-size:30px;
+}
+.nav-menu-paragraph {
+    font-size:20px;
+    max-width:175px;
+    margin:5px auto;
+}
+
+/*====DROP DOWN MENU====*/
+.dropbtn {
+    position:fixed;
+    top:15px;
+    left:10px;
+  background-color: #04AA6D;
+    margin-left:15px;
+    min-width:170px;
+  color: black;
+  padding: 16px;
+  font-size: 25px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+    font-size:15px;
+  display: none;
+  position: fixed;
+    top:76px;
+    left:10px;
+  background-color: #f1f1f1;
+  min-width: 170px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+    margin-left:15px;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+
+/*==============================================*/
+h1{
+    text-align:center;
+    border-bottom:solid;
+}
+.links {
+    display:flex;
+    text-align:center;
+    justify-content: center
+    
+}
+.linkcolumn {
+    margin:0 50px;
+    text-align:center;
+}
+
+/*GENERAL ANCHOR COLOR MODIFIERS*/
+a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+    color:inherit;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+/*INSTAGRAM HOVER COLOR GRADIENT*/
+.fa-instagram-square:hover{
+    color: transparent;
+  background: -webkit-radial-gradient(30% 107%, circle, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background: -o-radial-gradient(30% 107%, circle, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background-clip: text;
+  -webkit-background-clip: text;
+    background-color:transparent;
+    text-decoration:none;
+}
+
+.fa-bars {
+    margin-right:15px;
+}
+.fa-home {
+    margin-right:10px;
+}
+.fa-book-open {
+    margin-right:10px;
+}
+.fa-images {
+    margin-right:10px;
+}
+
+/*FACEBOOK HOVER COLOR*/
+.fa-facebook:hover{
+    color:#4267B2;
+}
+
+/*YOUTUBE HOVER COLOR*/
+.fa-youtube:hover{
+    color:red;
+}
+
+/*TIK TOK HOVER COLOR*/
+.fa-tiktok:hover{
+    color: #111111;
+  
+  filter: drop-shadow(2px 0px 0px #FD3E3E) drop-shadow(-2px -2px 0px #4DE8F4);
+}
+
+/*SNAPCHAT HOVER COLOR*/
+.fa-snapchat:hover{
+    color:#FFFC00;
+}
